@@ -46,7 +46,7 @@ const AddProduct = () => {
   };
 
   return (
-    <div className="container w-50 m-auto vh-100 d-flex flex-column justify-content-center">
+    <div className="container vh-100 d-flex flex-column justify-content-center">
       <div
         style={{
           display: "flex",
@@ -64,7 +64,7 @@ const AddProduct = () => {
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
           <label htmlFor="image" className="form-label">
-            Image
+            Image (Images wanna add to github account with the same name)
           </label>
           <input
             type="file"
